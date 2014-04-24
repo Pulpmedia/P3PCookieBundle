@@ -1,0 +1,5 @@
+services:
+    pulpmedia.p3p.filter_response_listener:
+        class: Pulpmedia\P3PCookieBundle\EventListener\ResponseListener
+        tags:
+            - { name: kernel.event_listener, event: kernel.response, method: onKernelResponse }
