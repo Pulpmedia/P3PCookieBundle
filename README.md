@@ -20,7 +20,7 @@ Add P3PCookieBundle to your composer.json
 ```js
 {
     "require": {
-        "pulpmedia/p3pcookie-bundle": "~1.0@dev"
+        "pulpmedia/p3pcookiebundle": "~1.0@dev"
     }
 }
 ``` 
@@ -28,7 +28,7 @@ Add P3PCookieBundle to your composer.json
 Now tell composer to download the bundle by running the command:
 
 ``` bash
-$ php composer.phar update pulpmedia/p3pcookie-bundle
+$ php composer.phar update pulpmedia/p3pcookiebundle
 ```
 
 Composer will install the bundle to your project's `vendor/pulpmedia` directory.
